@@ -1,0 +1,19 @@
+{
+  "name": "mockdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon ./mock/server.js"
+  },
+  "devDependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "mockjs": "^1.1.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
